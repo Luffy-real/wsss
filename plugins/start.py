@@ -108,7 +108,7 @@ async def start_command(client: Client, message: Message):
 @Bot.on_message(filters.private & filters.text & filters.regex("^Channels$"))
 async def show_channels(client: Client, message: Message):
     await message.reply_text(
-        text="Main Channel - <a href='https://t.me/+KKtZjKAUih40Nzg1'>(Click Here)</a>",
+        text="Main Channel - <a href='https://t.me/+KKtZlKkjbjkbkNzg1'>(Click Here)</a>",
         reply_markup=ReplyKeyboardRemove(),
         disable_web_page_preview=True,
         quote = True
